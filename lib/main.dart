@@ -185,7 +185,14 @@ class _MyHomePageState extends State<MyHomePage> {
                                 '$pictureUrl')
 
                         ),
-                      ):Container()
+                      ):Container(child:Text(
+                       'No image available',
+                       style: TextStyle(
+                           fontSize: 20.0,
+                           fontWeight: FontWeight.bold,
+                           color: Colors.black),
+                     ),
+                     )
 
                     ])
 
